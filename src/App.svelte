@@ -123,6 +123,7 @@
       class:btn-primary={!active && !isResetting}
       class:btn-soft={active || isResetting}
       class:btn-error={active || isResetting}
+      class:opacity-70={active}
     >
       {#if isResetting}
         Resetting...
