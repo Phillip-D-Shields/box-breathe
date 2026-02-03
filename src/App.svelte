@@ -139,7 +139,7 @@
     </button>
 
     <a 
-      href="https://www.buymeacoffee.com/YOUR_USERNAME" 
+      href="https://www.buymeacoffee.com/phill_shields" 
       target="_blank" 
       rel="noreferrer" 
       class="btn btn-ghost btn-xs gap-2 text-xs opacity-40 hover:opacity-100"
