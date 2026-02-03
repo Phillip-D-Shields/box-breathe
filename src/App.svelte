@@ -10,9 +10,9 @@
   let interval;
 
   const phases = [
-    { label: "Inhale", scale: 1.5, instruction: "Breathe In" },
+    { label: "Inhale", scale: 1.5, instruction: "Inhale" },
     { label: "Hold", scale: 1.5, instruction: "Hold" },
-    { label: "Exhale", scale: 1.0, instruction: "Breathe Out" },
+    { label: "Exhale", scale: 1.0, instruction: "Exhale" },
     { label: "Hold", scale: 1.0, instruction: "Hold" },
   ];
 
@@ -62,7 +62,6 @@
   onDestroy(() => {
     if (interval) clearInterval(interval);
   });
-
 </script>
 
 <main
@@ -114,7 +113,7 @@
   </div>
 
   <div
-    class="absolute bottom-8 flex w-full flex-col items-center gap-4 px-4 z-20 pb-[env(safe-area-inset-bottom)]"
+    class="absolute bottom-4 flex w-full flex-col items-center gap-4 px-4 z-20 pb-[env(safe-area-inset-bottom)]"
   >
     <button
       onclick={toggleSession}
@@ -133,7 +132,8 @@
         Start Breathing
       {/if}
     </button>
-
     <FooterButtons />
   </div>
 </main>
+
+
