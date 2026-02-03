@@ -10,13 +10,13 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg', 'apple-touch-icon.png'],
+      includeAssets: ['favicon.ico', 'apple-touch-icon.png'],
       manifest: {
         name: 'Box Breathe',
         short_name: 'Breathe',
         description: 'Calming 4-4-4-4 breathing utility',
-        theme_color: '#ffffff',
-        background_color: '#ffffff',
+        theme_color: '#9fe88d',
+        background_color: '#242933',
         display: 'standalone',
         icons: [
           {
