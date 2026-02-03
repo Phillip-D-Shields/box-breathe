@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@plugin "daisyui"{
+  themes: cupcake --default, dim --prefersdark;
+};
+
+/* Tailwind 4 Configuration */
+@theme {
+  /* Add a custom 4-second transition for the breathing cycle */
+  --transition-duration-4000: 4000ms;
+}
+
+
+/* Prevent scrolling/bouncing on mobile */
+html, body {
+  height: 100%;
+  overflow: hidden;
+  touch-action: none;
+}
